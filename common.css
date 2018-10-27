@@ -1,0 +1,25 @@
+.main {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    background: #e9e9e9;
+}
+.shapes {
+    display: block;
+    padding: 10px;
+    height: 40px;
+}
+.shapes svg-shape {
+    float: left;
+}
+.canvas {
+    position: absolute;
+    left: 100px;
+    top: 70px;
+}
+.colors {
+    position: absolute;
+    left: 10px;
+    top: 70px;
+}

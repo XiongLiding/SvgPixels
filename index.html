@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>SvgPixels</title>
+    <script type="riot/tag" src="./tags/svg-shape.tag"></script>
+    <script type="riot/tag" src="./tags/svg-colors.tag"></script>
+    <script type="riot/tag" src="./tags/svg-shapes.tag"></script>
+    <script type="riot/tag" src="./tags/svg-canvas.tag"></script>
+    <script src="https://cdn.jsdelivr.net/npm/riot@3.13/riot+compiler.min.js"></script>
+    <link rel="stylesheet" href="./common.css">
+</head>
+<body>
+    <div class="main">
+        <svg-shapes class="shapes"></svg-shapes>
+        <svg-colors class="colors"></svg-colors>
+        <svg-canvas class="canvas"></svg-canvas>
+    </div>
+    <script>
+        riot.observable(riot);
+        riot.mount('*');
+    </script>
+</body>
+</html>
